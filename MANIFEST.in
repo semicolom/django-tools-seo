@@ -1,1 +1,4 @@
-recursive-include djtools/ *
+include LICENSE
+include README.rst
+recursive-include djtools *
+recursive-exclude tests *

@@ -9,8 +9,8 @@ os.chdir(os.path.normpath(os.path.join(os.path.abspath(__file__), os.pardir)))
 
 setup(
     name='django-tools-seo',
-    version='1.0.0',
-    packages=find_packages(),
+    version='1.0.2',
+    packages=find_packages(exclude=("tests",)),
     include_package_data=True,
     description='Simple Django app to manage project SEO like Google Analytics',
     long_description=README,
